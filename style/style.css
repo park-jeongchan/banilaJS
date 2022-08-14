@@ -1,0 +1,46 @@
+.display{
+    
+    width:1400px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 30px;
+    margin: auto;
+    
+    
+}
+#blur{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: rgba(255,255,192,0.1);
+    backdrop-filter: blur(7px);
+    box-shadow: 2px 7px 15px 8px rgba(0,0,0,0.3);
+    margin: auto;
+
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+body{
+    text-align: center;
+}
+#clock{
+    font-size: 80px;
+    font-weight: 700;
+
+}
+.hidden{
+    display: none;
+    
+}
+#login{
+    margin:auto;
+    padding-top: 140px;
+}
+#griting{
+    padding-top: 120px;
+}
+#font{
+    font-size: 30px;
+}
